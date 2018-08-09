@@ -1,1 +1,11 @@
-
+.links{ list-style: none;}
+.links a{
+    background: #EEE;
+    padding: 10px 20px;
+    display: block;
+    margin-bottom: 5px;
+}
+.links a.selected{
+    background: #444;
+    color: #FFF;
+}
